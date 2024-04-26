@@ -10,3 +10,4 @@ pygeos
 jax==0.4.6
 jaxlib==0.4.6
 scipy==1.9.1
+tensorboard==2.12.0
