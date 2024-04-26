@@ -3,6 +3,6 @@ scArches==0.6.1
 torch_geometric
 -f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_scatter
 -f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_sparse
-squidpy==1.4.1
-captum==0.7.0
-patchworklib==0.6.3
+squidpy
+captum
+patchworklib
