@@ -7,3 +7,7 @@ squidpy
 captum
 patchworklib
 pygeos
+jax==0.2.16
+jaxlib==0.1.68
+optax==0.1.2
+chex==0.1.2
