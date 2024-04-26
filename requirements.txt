@@ -1,6 +1,6 @@
 streamlit==1.33.0
 scArches==0.6.1
-torch_geometric==2.6.0
+torch_geometric
 torch_scatter==2.1.2+pt22cu121
 torch_sparse==0.6.18+pt22cu121
 squidpy==1.4.1
