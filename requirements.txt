@@ -2,8 +2,8 @@ streamlit==1.33.0
 scArches==0.6.1
 torch==1.13.1
 torch-geometric==2.2.0
-torch-scatter==2.1.1+pt113cpu
-torch-sparse==0.6.17+pt113cpu
+torch-scatter==2.1.1
+torch-sparse==0.6.17
 squidpy==1.4.1
 captum==0.7.0
 patchworklib==0.6.3
