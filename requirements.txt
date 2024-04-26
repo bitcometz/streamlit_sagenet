@@ -7,4 +7,5 @@ squidpy
 captum
 patchworklib
 pygeos
-jax==0.4.23
+jax==0.4.6
+jaxlib==0.4.6
