@@ -1,9 +1,8 @@
 streamlit==1.33.0
 scArches==0.6.1
-torch==1.13.1
-torch-geometric==2.2.0
-torch-scatter==2.1.1
-torch-sparse==0.6.17
+torch_geometric==2.6.0
+-f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_scatter
+-f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_sparse
 squidpy==1.4.1
 captum==0.7.0
 patchworklib==0.6.3
