@@ -9,3 +9,4 @@ patchworklib
 pygeos
 jax==0.4.6
 jaxlib==0.4.6
+scipy==1.9.1
