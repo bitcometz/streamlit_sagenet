@@ -6,3 +6,4 @@ torch_sparse==0.6.18+pt22cu121
 squidpy==1.4.1
 captum==0.7.0
 patchworklib==0.6.3
+plotly
