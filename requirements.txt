@@ -1,14 +1,5 @@
 streamlit==1.33.0
 scArches==0.6.1
-<<<<<<< HEAD
-torch_geometric==2.6.0
-torch_scatter==2.1.2+pt22cu121
-torch_sparse==0.6.18+pt22cu121
-squidpy==1.4.1
-captum==0.7.0
-patchworklib==0.6.3
-plotly
-=======
 torch_geometric
 -f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_scatter
 -f https://data.pyg.org/whl/torch-2.2.1+cu121.html torch_sparse
@@ -20,4 +11,4 @@ jax==0.4.6
 jaxlib==0.4.6
 scipy==1.9.1
 tensorboard==2.12.0
->>>>>>> e8d75d659a65c3a1a52b972c3e799434c53deb4a
+plotly
