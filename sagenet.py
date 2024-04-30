@@ -30,9 +30,9 @@ def binaryswitch(session_state, keys):
         else:
             session_state[key] = True
 
-def toFalse(session_state, key1, key2):
-    session_state[key1] = False
-    session_state[key2] = False
+def toFalse(session_state, keys):
+    for key in keys:
+        session_state[key] = False
 
 ### 画图函数
 def plot4spa(adata_list, celltype_chosen, numL):
@@ -222,7 +222,7 @@ def main():
         '2.1Spatial transcriptomics samples:',
         spa_samples,
         on_change=toFalse,
-        args = (ss, 'checkSPA', "init_colours", "chekc_celltype") # 只要这个动了，下面就是False了
+        args = (ss, ['checkSPA', "init_colours", "chekc_celltype"]) # 只要这个动了，下面就是False了
     )
 
 
