@@ -268,7 +268,7 @@ def main():
         chekc_celltype = st.sidebar.checkbox("Confirm celltype selection", value=ss['chekc_celltype'], on_change=binaryswitch, args = (ss, ['chekc_celltype']))
         
 
-        if ss["chekc_celltype"]:
+        #if ss["chekc_celltype"]:
 
 
 
